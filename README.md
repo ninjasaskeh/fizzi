@@ -1,5 +1,5 @@
 # Check This Out!!!
-https://fizzi-tnku.vercel.app/
+## Demo: https://fizzi-tnku.vercel.app/
 
 <details>
 <summary>Prismic + Next.js Minimal Starter</summary>
