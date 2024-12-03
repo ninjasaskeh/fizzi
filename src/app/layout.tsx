@@ -6,7 +6,7 @@ import "./app.css";
 import Header from "@/components/Header";
 import ViewCanvas from "@/components/ViewCanvas";
 import Footer from "@/components/Footer";
-
+import { SpeedInsights } from "@vercel/speed-insights/next";
 const alpino = localFont({
   src: "../../public/fonts/Alpino-Variable.woff2",
   display: "swap",
@@ -25,6 +25,7 @@ export default function RootLayout({
         <Header />
         <main>
           {children}
+          <SpeedInsights />
           <ViewCanvas />
         </main>
         <Footer />
