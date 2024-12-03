@@ -1,0 +1,9 @@
+{
+  "type": "json",
+  "imports": [
+    {
+      "type": "json"
+    }
+  ],
+    "extends": "next/core-web-vitals"
+}
